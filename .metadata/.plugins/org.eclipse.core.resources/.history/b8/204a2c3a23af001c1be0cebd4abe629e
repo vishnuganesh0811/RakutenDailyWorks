@@ -1,0 +1,15 @@
+import junit.framework.TestCase;
+
+public class TDDTESTCASE extends TestCase {
+
+		public void testadd() {
+			Calculator calculator=new Calculator();
+			int result = calculator.add(1,2);
+			assertEquals(3,result);
+			}
+		public void testaddwithzero() {
+			Calculator calculator=new Calculator();
+			int result = calculator.add(0,2);
+			assertEquals(2,result);
+		}
+}

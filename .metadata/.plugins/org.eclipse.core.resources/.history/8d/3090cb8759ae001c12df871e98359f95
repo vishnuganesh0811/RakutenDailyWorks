@@ -1,0 +1,6 @@
+package OOAD;
+public class Book {
+	String title;
+	float price;
+
+}

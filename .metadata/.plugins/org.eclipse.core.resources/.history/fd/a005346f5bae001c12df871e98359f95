@@ -1,0 +1,21 @@
+package OOAD;
+public class Book {
+	String title;
+	float price;
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public float getPrice() {
+		return price;
+	}
+	public void setPrice(float price) {
+		if(price<0) {
+			throw new IllegalArgumentException("price>0");
+		}
+		this.price = price;
+	}
+
+}
