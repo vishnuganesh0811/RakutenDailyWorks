@@ -31,7 +31,8 @@ public class Book {
 		return price;
 	}
 
-	public void setPrice(float price) {
+	public void setPrice(float price) throws InvalidPriceException {
+	
 		if (price <= 0) {
 			throw new IllegalArgumentException("Price > 0");
 		}
