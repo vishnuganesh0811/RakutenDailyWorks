@@ -115,6 +115,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/kurdi.ganesh/Downloads/spring-boot-kafka-app"/>
 			<item value="/Users/kurdi.ganesh/Downloads/java"/>
 			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/examples-7.1.0-post"/>
 		</list>
