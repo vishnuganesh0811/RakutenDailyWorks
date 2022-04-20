@@ -110,6 +110,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/kurdi.ganesh/Downloads/spring-cloud-config-server-demo-main"/>
 			<item value="/Users/kurdi.ganesh/Desktop/Rakuten-Training-2022/jdbc-demo"/>
 			<item value="/Users/kurdi.ganesh/Downloads/spring-boot-kafka-app"/>
 			<item value="/Users/kurdi.ganesh/Downloads/java"/>
