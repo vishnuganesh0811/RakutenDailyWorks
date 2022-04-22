@@ -110,6 +110,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/fitness-tracker-service"/>
+			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/eureka-service"/>
 			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/Circuit-Breaker"/>
 			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/SpringBoot_ActiveMQ-main"/>
 			<item value="/Users/kurdi.ganesh/Downloads/Circuit-Breaker"/>
