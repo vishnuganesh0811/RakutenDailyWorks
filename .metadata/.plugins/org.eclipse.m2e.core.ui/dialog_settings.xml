@@ -110,6 +110,11 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/Circuit-Breaker"/>
+			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/SpringBoot_ActiveMQ-main"/>
+			<item value="/Users/kurdi.ganesh/Downloads/Circuit-Breaker"/>
+			<item value="/Users/kurdi.ganesh/Downloads/Microservices-project-main/microservices-main"/>
+			<item value="/Users/kurdi.ganesh/Downloads/microservices-main"/>
 			<item value="/Users/kurdi.ganesh/Downloads/spring-cloud-config-server-demo-main"/>
 			<item value="/Users/kurdi.ganesh/Desktop/Rakuten-Training-2022/jdbc-demo"/>
 			<item value="/Users/kurdi.ganesh/Downloads/spring-boot-kafka-app"/>
