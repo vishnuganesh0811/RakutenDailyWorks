@@ -29,7 +29,12 @@ public class JpaCompositePrimaryKeyDemoApplication implements CommandLineRunner 
 				"+91-9164981717");
 
 		employeeRepository.save(employee);
+		Employee employee1 = new Employee(new EmployeeIdentity("E-124", "D-458"),
+				"Vishnu Ganesh",
+				"ganesh.kurdi@gmail.com",
+				"+91-9164981787");
 
+		employeeRepository.save(employee1);
 
 		employeeRepository.findById(new EmployeeIdentity("E-123", "D-457"));
 
