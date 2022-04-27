@@ -1,0 +1,8 @@
+package Maps
+
+class MapsValues {
+   static void main(String[] args) {
+      def mp = ["TopicName" : "Maps", "TopicDescription" : "Methods in Maps"]
+      println(mp.values()); 
+   } 
+} 
