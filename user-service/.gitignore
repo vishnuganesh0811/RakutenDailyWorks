@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+
+user-service/.mvn/wrapper/maven-wrapper.jar
