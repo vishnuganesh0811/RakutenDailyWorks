@@ -3,6 +3,11 @@
 	<list key="installedFeatures">
 		<item value="com.ianbrandt.tools.m2e.mdp.feature:0.0.4.201409291703"/>
 		<item value="net.mihai-nita.ansicon:1.4.6.202112080311"/>
+		<item value="org.codehaus.groovy.eclipse.feature:4.5.0.v202203311327-e2203-RELEASE"/>
+		<item value="org.codehaus.groovy.m2eclipse.feature:4.5.0.v202203311327-e2203-RELEASE"/>
+		<item value="org.codehaus.groovy25.feature:4.5.0.v202203311327-e2203-RELEASE"/>
+		<item value="org.codehaus.groovy30.feature:4.5.0.v202203311327-e2203-RELEASE"/>
+		<item value="org.codehaus.groovy40.feature:4.5.0.v202203311327-e2203-RELEASE"/>
 		<item value="org.eclipse.buildship:3.1.5.v20210113-0929"/>
 		<item value="org.eclipse.eclemma.feature:3.1.5.202109082215"/>
 		<item value="org.eclipse.egit.gitflow.feature:6.1.0.202203080745-r"/>
@@ -42,8 +47,9 @@
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.5.202002191804"/>
 	</list>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.codehaus.groovy.eclipse"/>
 			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="org.eclipse.m2e"/>
 			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
