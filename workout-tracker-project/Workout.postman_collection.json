@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "c2411cd9-9717-4453-a095-e1f155bf35d7",
+		"name": "Workout",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n        \"workOutTitle\": \"running\",\n        \"caloriesBurntPerMinute\": 550.98,\n        \"category\": \"RUNNING\",\n        \"workOutNote\": \"do it for 100mins\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/workout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"workout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/workout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"workout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/workout/delete?workOutId=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"workout",
+						"delete"
+					],
+					"query": [
+						{
+							"key": "workOutId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"workOutId\": 2,\n        \"workOutTitle\": \"running\",\n        \"caloriesBurntPerMinute\": 550.98,\n        \"category\": \"RUNNING\",\n        \"workOutNote\": \"do it for 100mins\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/workout/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"workout",
+						"update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
