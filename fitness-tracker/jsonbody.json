@@ -1,0 +1,13 @@
+{
+    "name" : "Ganesh",
+    "age" : 24,
+    "email" : "ganesh@gmail.com",
+    "mobileNumber": "9988998899",
+    "addressLine1" : "raichur",
+    "addressLine2" : "karnataka",
+    "city" : "raichur",
+    "state" : "karnataka",
+    "country" : "India",
+    "pinCode" : "584103",
+    "packageType" :"TYPE1"
+}
