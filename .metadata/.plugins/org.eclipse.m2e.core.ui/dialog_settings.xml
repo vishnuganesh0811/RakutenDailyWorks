@@ -110,6 +110,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/workout-tracker-project"/>
 			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/fitness-tracker"/>
 			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/AssignmentFit"/>
 			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/Assignment 4 (02-05-2022)fitness-tracker-service/fitness-tracker"/>
@@ -124,7 +125,6 @@
 			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/project-2"/>
 			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/jpa-one-to-many-demo"/>
 			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/Composite Primary Key JPA Demo/composite-primary-key-jpa"/>
-			<item value="/Users/kurdi.ganesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/jpa-composite-primary-key-demo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
